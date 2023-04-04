@@ -47,7 +47,14 @@
       border: 2px solid gray;
 
    }
-
+td::before{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 40%; 
+   content: attr(data-date);
+   padding: 5px;
+}
 
  }
 
