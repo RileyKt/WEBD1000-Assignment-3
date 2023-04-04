@@ -17,7 +17,7 @@
    Mobile Styles: 0px to 640px 
    ===============================
 */
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
    table, tbody, tr,td,th,caption{
       display: block;
    }
@@ -64,7 +64,7 @@
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
-@media screen and (min-width: 641px) {
+@media only screen and (min-width: 641px) {
    table{
       /*displays image as background for table in the bottom right corner with width of 40%*/
       background-image: url('lht_photo1.png');
