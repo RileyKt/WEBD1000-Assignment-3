@@ -131,10 +131,10 @@
       /* centers the caption */
       text-align: center;
       
-      /* */
+      /* adds 10px of padding below the caption */
       padding-bottom: 10px;
       
-      
+      /* sets the caption font size to 1.2em and adds spacing of 3px between letters */
       font-size: 1.2em;
       letter-spacing: 3px;
    }
