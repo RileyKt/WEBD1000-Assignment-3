@@ -65,65 +65,83 @@
    =============================================
 */
 @media screen and (min-width: 641px) {
-table{
-   /*displays image as background for table in the bottom right corner with width of 40%*/
-   background-image: url('lht_photo1.png');
-   background-position: bottom right;
-   background-size: 40%;
-   background-repeat: no-repeat;
+   table{
+      /*displays image as background for table in the bottom right corner with width of 40%*/
+      background-image: url('lht_photo1.png');
+      background-position: bottom right;
+      background-size: 40%;
+      background-repeat: no-repeat;
 
-   /*adds a 6px double border*/
-   border: 6px double rgb(154, 64, 3);
-   
+      /*adds a 6px double border*/
+      border: 6px double rgb(154, 64, 3);
+      
 
-   /*collapses table borders*/
-   border-collapse: collapse;
+      /*collapses table borders*/
+      border-collapse: collapse;
 
-   /*adds a marign for the table to center the content*/
-   margin-top: 20px;
-   margin-bottom: 20px;
-   margin-left: auto;
-   margin-right: auto;
+      /*adds a marign for the table to center the content*/
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
 
-   /*adds a fixed layout for the content*/
-   table-layout: fixed;
+      /*adds a fixed layout for the content*/
+      table-layout: fixed;
 
-   /*sets width of table to 85%*/
-   width: 85%;
+      /*sets width of table to 85%*/
+      width: 85%;
 
-}
-th, td {
-   /* adds a 1px grey border  */
-   border: 1px solid gray;
-   
-   /* sets the font size to 0.85em and sets the font to normal weight */
-   font-size: 0.85em;
-   font-weight: normal;
-   
-   /* adds 5px of padding */
-   padding: 5px;
-   
-   /* aligns the content with the top of the cell */
-   vertical-align: top;
-   
-   /* sets the width to 14.28% */
-   width: 14.28%;
-   
-   /* allows the browser to avoid overflow of the cell */
-   word-wrap: break-word;
- }
-td{
-   /* Sets the backround, and text color for the table contents, but not the days of the week*/
-  background-color: rgba(171, 171, 171, 0.6); 
+   }
+   th, td {
+      /* adds a 1px grey border  */
+      border: 1px solid gray;
+      
+      /* sets the font size to 0.85em and sets the font to normal weight */
+      font-size: 0.85em;
+      font-weight: normal;
+      
+      /* adds 5px of padding */
+      padding: 5px;
+      
+      /* aligns the content with the top of the cell */
+      vertical-align: top;
+      
+      /* sets the width to 14.28% */
+      width: 14.28%;
+      
+      /* allows the browser to avoid overflow of the cell */
+      word-wrap: break-word;
+   }
+   td{
+      /* Sets the backround, and text color for the table contents, but not the days of the week*/
+   background-color: rgba(171, 171, 171, 0.6); 
 
-  color: rgb(11, 12, 145);
-}
-td[data-date*='Sep']{
+   color: rgb(11, 12, 145);
+   }
 
-}
+   /*Sets the cells in September to have a different color and a blur of 20px */
+   td[data-date*='Sep']{
+      background-color: rgba(232, 214, 148, 0.6);
+      box-shadow: inset 0 0 20px grey;
+   }
+   caption {
+      /* displays the caption at the top */
+      caption-side: top;
+      
+      /* centers the caption */
+      text-align: center;
+      
+      /* */
+      padding-bottom: 10px;
+      
+      
+      font-size: 1.2em;
+      letter-spacing: 3px;
+   }
 
 
 
-}
+
+   }
 
 
