@@ -124,6 +124,7 @@
       background-color: rgba(232, 214, 148, 0.6);
       box-shadow: inset 0 0 20px grey;
    }
+
    caption {
       /* displays the caption at the top */
       caption-side: top;
@@ -138,7 +139,13 @@
       font-size: 1.2em;
       letter-spacing: 3px;
    }
-
+   th {
+   /* changes the background color of table header */
+   background-color: rgb(154, 64, 3);
+   
+   /* sets font color to white for table header*/
+   color: white;
+   }
 
 
 
