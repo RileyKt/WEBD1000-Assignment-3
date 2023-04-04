@@ -12,7 +12,26 @@
    Filename:   lht_columns.css
 
 */
+/*changes the appearance of the content above the table, formats the content into 2 or 3 columns depending on the width of the browser*/
+article {
+   
+   /*sets the width and gap between columns*/
+   column-width: 260px;
+   column-gap: 20px;
+   
+   /* adds a 1px solid line between the columns*/
+   column-rule: 1px solid rgb(154, 64, 31);
+   
+   /* sets the minimum size of widows and orphans to be at least 2 columns, although if there's space it'll make 3 columns depending on the width of the browser */
+   widows: 2;
+   orphans: 2;
+ }
 
+
+ article h1 {
+   /* allows the header to stretch across all the columns */
+   column-span: all;
+ }
 
 
 /* Column Styles */
