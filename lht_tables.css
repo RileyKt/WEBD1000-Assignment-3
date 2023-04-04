@@ -18,9 +18,9 @@
    ===============================
 */
 @media screen and (max-width: 640px) {
-      table, tbody, tr,td,th,caption{
-         display: block;
-      }
+   table, tbody, tr,td,th,caption{
+      display: block;
+   }
    thead{
       display: none;
    }
@@ -47,14 +47,14 @@
       border: 2px solid gray;
 
    }
-td::before{
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 40%; 
-   content: attr(data-date);
-   padding: 5px;
-}
+   td::before{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 40%; 
+      content: attr(data-date);
+      padding: 5px;
+   }
 
  }
 
@@ -64,3 +64,38 @@ td::before{
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
+@media screen and (min-width: 641px) {
+table{
+   /*displays image as background for table in the bottom right corner with width of 40%*/
+   background-image: url('lht_photo1.png');
+   background-position: bottom right;
+   background-size: 40%;
+   background-repeat: no-repeat;
+
+   /*adds a 6px double border*/
+   border: 6px double rgb(154, 64, 3);
+   
+
+   /*collapses table borders*/
+   border-collapse: collapse;
+
+   /*adds a marign for the table to center the content*/
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+
+   /*adds a fixed layout for the content*/
+   table-layout: fixed;
+
+   /*sets width of table to 85%*/
+   width: 85%;
+
+}
+
+
+
+
+}
+
+
