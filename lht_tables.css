@@ -92,7 +92,26 @@ table{
    width: 85%;
 
 }
-
+th, td {
+   /* adds a 1px grey border  */
+   border: 1px solid gray;
+   
+   /* sets the font size to 0.85em and sets the font to normal weight */
+   font-size: 0.85em;
+   font-weight: normal;
+   
+   /* adds 5px of padding */
+   padding: 5px;
+   
+   /* aligns the content with the top of the cell */
+   vertical-align: top;
+   
+   /* sets the width to 14.28% */
+   width: 14.28%;
+   
+   /* allows the browser to avoid overflow of the cell */
+   word-wrap: break-word;
+ }
 
 
 
