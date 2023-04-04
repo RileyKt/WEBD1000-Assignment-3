@@ -17,7 +17,18 @@
    Mobile Styles: 0px to 640px 
    ===============================
 */
+@media screen and (max-width: 640px) {
+      table, tbody, tr,td,th,caption{
+         display: block;
+      }
+   thead{
+      display: none;
+   }
+   thead h1{
+      display: none;
+   }
 
+ }
 
 
 
